@@ -1,0 +1,36 @@
+{
+  "name": "ipfs-readme-standard",
+  "version": "1.0.0",
+  "description": "Standardize IPFS Readmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipfs/ipfs-readme-standard.git"
+  },
+  "keywords": [
+    "markdown",
+    "readme",
+    "parse",
+    "lint",
+    "standard"
+  ],
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipfs/ipfs-readme-standard/issues"
+  },
+  "homepage": "https://github.com/ipfs/ipfs-readme-standard#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "graceful-fs": "^4.1.2",
+    "mdast": "^2.1.0",
+    "mdast-lint": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17"
+  }
+}
