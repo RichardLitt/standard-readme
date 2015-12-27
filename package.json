@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/ipfs/ipfs-readme-standard#readme",
   "dependencies": {
-    "fs": "0.0.2",
     "graceful-fs": "^4.1.2",
     "mdast": "^2.1.0",
-    "mdast-lint": "^1.1.1"
+    "mdast-lint": "^1.1.1",
+    "remark-title": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17"
