@@ -1,7 +1,7 @@
 {
   "plugins": {
     "remark-title": {
-      "title": 'IPFS Readme Standard'
+      "title": "IPFS Readme Standard"
     }
   }
 }
