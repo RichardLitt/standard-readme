@@ -128,4 +128,4 @@ etc.
 MIT (c) Protocol Labs
 
 [node]: http://nodejs.org
-[npmjs]: https://npmjs.com
+[npm]: https://npmjs.com
