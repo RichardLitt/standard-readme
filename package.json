@@ -1,5 +1,5 @@
 {
-  "name": "ipfs-readme-standard",
+  "name": "standard-readme",
   "version": "1.0.0",
   "description": "Standardize IPFS Readmes",
   "main": "index.js",
