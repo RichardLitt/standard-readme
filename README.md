@@ -36,8 +36,6 @@ There are many standards. This is mine.
 
 ## Installation
 
-_Note: This is a placeholder, at the moment._
-
 This project uses [node][] and [npmjs][]. Go check them out if you don't have them locally installed.
 
 ```sh
@@ -49,20 +47,11 @@ npm i -g standard-readme
 
 ## Usage
 
-_Note: This is a placeholder, at the moment._
-
-The settings are stored in the `.remarkrc` file. Ideally, this file should be added to each repository where
-you plan to use `remark`. There are plans to enable a single `.remarkrc` to be used in multiple repos.
-
-```sh
-$ npm i -g remark
-$ npm i
-$ remark README.md -o README.md
-```
+Currently, this is only a Readme spec. There are plans to add [a linter](https://github.com/RichardLitt/standard-readme/issues/5) and [a generator](https://github.com/RichardLitt/standard-readme/issues/6). 
 
 ## Contribute
 
-Feel free to dive in! Open an issue or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
 
 ## Specification
 
