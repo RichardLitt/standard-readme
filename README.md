@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
 
-> Standardize your Readmes
+> Readme Standard Style
 
 This repo is for standardizing how READMEs should look. The goal is to have: 
   - A well defined specification that other people could look to;
