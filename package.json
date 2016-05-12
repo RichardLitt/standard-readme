@@ -1,6 +1,6 @@
 {
   "name": "standard-readme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Readme Standard Style",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "babel-cli": "^6.3.17"
   },
   "coordinates": [
-    42.3812307,
-    -71.0972446
+    42.3811742,
+    -71.0972239
   ]
 }
