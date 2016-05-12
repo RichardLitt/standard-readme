@@ -36,14 +36,11 @@ There are many standards. This is mine.
 
 ## Installation
 
-This project uses [node][] and [npmjs][]. Go check them out if you don't have them locally installed.
+This project uses [node][] and [npm][]. Go check them out if you don't have them locally installed.
 
 ```sh
 npm i -g standard-readme
 ```
-
-[node]: http://nodejs.org
-[npmjs]: https://npmjs.com
 
 ## Usage
 
@@ -85,16 +82,17 @@ A compliant README must:
 - If present, must go beneath banner (if present), or beneath title.
 - Must be newline delimited.
 
-#### one-line description
+#### Short Description
 **Requirements:** 
 - Must be less than 120 characters.
 - Must start with `> `
 - Must be on it's own line.
-- Must match the description in the packager manager's `description` field.
+- Must match the description in the packager manager's `description` field. 
 - Must match GitHub's description (if on GitHub).
 
 **Suggestions:**
 - Use [gh-description](https://github.com/RichardLitt/gh-description) to set and get GitHub description.
+- Use `npm show . description` to show the description from a local [npm][] package.
 
 #### Table of Contents
 Requirements: There must be a Table of Contents that links to the 
@@ -128,3 +126,6 @@ etc.
 ## License
 
 MIT (c) Protocol Labs
+
+[node]: http://nodejs.org
+[npmjs]: https://npmjs.com
