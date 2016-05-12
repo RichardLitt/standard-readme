@@ -93,11 +93,19 @@ A compliant README must:
 
 #### Badges
 **Requirements:**
-- If present, must start on third line.
+- If present, must go beneath banner (if present), or beneath title.
 - Must be newline delimited.
 
 #### one-line description
-Requirements: 120 char or less.
+**Requirements:** 
+- Must be less than 120 characters.
+- Must start with `> `
+- Must be on it's own line.
+- Must match the description in the packager manager's `description` field.
+- Must match GitHub's description (if on GitHub).
+
+**Suggestions:**
+- Use [gh-description](https://github.com/RichardLitt/gh-description) to set and get GitHub description.
 
 #### Table of Contents
 Requirements: There must be a Table of Contents that links to the 
