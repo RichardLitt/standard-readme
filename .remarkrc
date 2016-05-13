@@ -1,7 +1,13 @@
 {
   "plugins": {
-    "remark-title": {
-      "title": "IPFS Readme Standard"
+    "remark-title": {},
+    "lint": {
+      "no-multiple-toplevel-headings": true,
+      "list-item-indent": false,
+      "maximum-line-length": false
     }
+  },
+  "settings": {
+    "commonmark": true
   }
 }
