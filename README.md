@@ -12,7 +12,7 @@ This repo is for standardizing how READMEs should look. The goal is to have:
   - A linter that can be used to look at errors in a given Readme;
   - A generator that can be used to quickly scaffold out new READMEs.
 
-## Table of Contents**
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -44,8 +44,8 @@ Standard Readme started with in the issue originally posed by [@maxogden](https:
 1. A well defined **specification**. This can be found in the [Specification](#specification) section. It is a constant work in progress; please open issues to discuss changes.
 2. **An example README**. This Readme is fully standard-readme compliant.
 3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
-4. A generator that can be used to quickly scaffold out new READMEs. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/6).
-5. A compliant badge.
+4. A **generator** that can be used to quickly scaffold out new READMEs. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/6).
+5. A **compliant badge** for users.
 
 ## Installation
 
