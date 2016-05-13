@@ -12,43 +12,57 @@ This repo is for standardizing how READMEs should look. The goal is to have:
   - A linter that can be used to look at errors in a given Readme;
   - A generator that can be used to quickly scaffold out new READMEs.
 
-There are many standards. This is mine. 
-
 ** Table of Contents **
 
-- [Installation](#installation-1)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Contribute](#contribute)
 - [Specification](#specification)
   - [Requirements](#requirements)
   - [Sections](#sections)
-    - [Name](#name)
-    - [one-line description](#one-line-description)
+    - [Title](#title)
+    - [Banner](#banner)
+    - [Badges](#badges)
+    - [Short Description](#short-description)
+    - [Long Description](#long-description)
     - [Table of Contents](#table-of-contents)
-    - [Usage Section](#usage-section)
-    - [API](#api)
-    - [Installation](#installation)
-    - [License](#license)
-  - [Suggestions](#suggestions)
+    - [Security](#security)
     - [Background section](#background-section)
-    - [Conventions](#conventions)
+    - [Installation](#installation-1)
+    - [Usage Section](#usage-section)
+    - [Extra Sections](#extra-sections)
+    - [API](#api)
+    - [Contribute](#contribute-1)
+    - [License](#license)
+- [Contribute](#contribute)
 - [License](#license-1)
+
+## Background
+
+Standard Readme started with in the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141). A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes. This is a result of that.
+
+### Goals:
+1. A well defined **specification**. This can be found in the [Specification](#specification) section. It is a constant work in progress; please open issues to discuss changes.
+2. **An example README**. This Readme is fully standard-readme compliant.
+3. A **linter** that can be used to look at errors in a given Readme. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5).
+4. A generator that can be used to quickly scaffold out new READMEs. Please refer to the [tracking issue](https://github.com/RichardLitt/standard-readme/issues/6).
+5. A compliant badge.
 
 ## Installation
 
 This project uses [node][] and [npm][]. Go check them out if you don't have them locally installed.
 
 ```sh
-npm i -g standard-readme
+$ npm i -g standard-readme
 ```
 
 ## Usage
 
-Currently, this is only a Readme spec. There are plans to add [a linter](https://github.com/RichardLitt/standard-readme/issues/5) and [a generator](https://github.com/RichardLitt/standard-readme/issues/6). 
+Currently, this is only a Readme spec. 
 
-## Contribute
-
-Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
+```
+$ standard-readme
+// Will output spec (this Readme)
+```
 
 ## Specification
 
@@ -57,19 +71,19 @@ Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-re
 A compliant README must:
   - Be called README.md (with capitalization).
   - Be a valid Markdown file.
+  - Sections must appear in order delineated below. Optional sections may be omitted.
+  - Must be new lines between each section.
 
 ### Sections
 
-#### Name
-**Status:** Optional.
-
-**Requirements:** 
-- Must be first section.
+#### Title
+**Status:** Required.  
+**Requirements:**
 - Must match repository name. If it cannot, there must be a note in the long description about why.
 - Must match package manager name. If it cannot, there must be a note in the long description about why.
 
-**Suggestions:** 
-- Should be self-evident. 
+**Suggestions:**
+- Should be self-evident.
 
 #### Banner
 **Status:** Optional.  
@@ -78,12 +92,13 @@ A compliant README must:
 - Must appear directly after the title.
 
 #### Badges
+**Status:** Optional.  
 **Requirements:**
-- If present, must go beneath banner (if present), or beneath title.
 - Must be newline delimited.
 
 #### Short Description
-**Requirements:** 
+**Status:** Required.  
+**Requirements:**
 - Must be less than 120 characters.
 - Must start with `> `
 - Must be on it's own line.
@@ -94,34 +109,101 @@ A compliant README must:
 - Use [gh-description](https://github.com/RichardLitt/gh-description) to set and get GitHub description.
 - Use `npm show . description` to show the description from a local [npm][] package.
 
+#### Long Description
+**Status:** Optional.  
+**Requirements:**
+- Must have no heading.
+
+**Suggestions:**
+- If too long, consider moving to the [Background](#background) section.
+- Cover the main reasons for building the repository.
+
 #### Table of Contents
-Requirements: There must be a Table of Contents that links to the 
+**Status:** Required.  
+**Requirements:**
+- Must link to all Markdown sections in the file.
+- Must not have a Markdown header, `####`, but must be in bold, on it's own line.
+- Must start with the next section; do not include the title.
 
-#### Usage Section
-Suggestions: Cover promises/callbacks, ES6 here.
-
-#### API
-Requirements: Describe internal objects and functions, signatures, return types, callbacks, and events. Types covered where not obvious. Caveats.
-
-#### Installation
-Requirements: Installation command.
-Suggestions: Link to prerequisite sites for language. [npmjs][], [godocs][], etc.
-
-#### License
-Requirements: State License.
-Suggestions: Link to longer License file.
-
-### Suggestions
+#### Security
+**Status**: Optional.  
+**Requirements:**
+- May go here if visibility of security section is important. Otherwise, should be in [Extra Sections](#extra-sections).
 
 #### Background section
-Requirements: Motivation, abstract dependencies
+**Status:** Optional.  
+**Requirements:**
+- Cover motivation.
+- Cover abstract dependencies.
+- Cover intellecutal provenance.
 
-#### Conventions
-cb for callback
-num for Number
-int for Integer
-bool for Boolean
-etc.
+#### Installation
+**Status:** Required.  
+**Requirements:**
+- Code block illustrating how to install.
+
+Subsections:
+- `Dependencies`. Required if necessary.
+- `Updating`. Optional.
+
+**Suggestions:**
+- Link to prerequisite sites for language. [npmjs][], [godocs][], etc.
+- Include any system-specific information needed for Installation.
+- Subsection for dependencies needed for install to work. 
+
+#### Usage Section
+**Status:** Required.  
+**Requirements:**
+- Code block illustrating common usage.
+- If CLI compatible, code block indicating common usage.
+- If importable, code block indicating both import functionality and usage. 
+
+Subsections:
+- `CLI`. Required if CLI functionality exists.
+
+**Suggestions:**
+- Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
+
+#### Extra Sections
+**Status**: Optional.  
+**Requirements:**
+- None.
+
+#### API
+**Status:** Optional.  
+**Requirements:**
+- Describe exported functions and objects. 
+
+**Suggestions:**
+- Describe signatures, return types, callbacks, and events.
+- Cover types covered where not obvious. 
+- Describe caveats.
+
+#### Contribute
+**Status**: Required.  
+**Requirements:**
+- Link to `CONTRIBUTE.md` file if there is one.
+- State where users can ask questions.
+- State whether PRs are accepted.
+- List any requirements for contributing; for instance, having a sign-off on commits.
+
+**Suggestions:**
+- Be as friendly as possible.
+- Link to the GitHub issues.
+
+#### License
+**Status:** Required.  
+**Requirements:**
+- State license initials or name.
+- State license owner.
+- Must be last section.
+
+**Suggestions:**
+- Link to longer License file in local repository.
+
+## Contribute
+
+Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
 
 ## License
 
