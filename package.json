@@ -4,34 +4,34 @@
   "description": "Readme Standard Style",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ipfs/ipfs-readme-standard.git"
+    "url": "git+https://github.com/RichardLitt/standard-readme.git"
   },
   "keywords": [
+    "standard",
     "markdown",
     "readme",
     "parse",
-    "lint",
-    "standard"
+    "lint"
   ],
-  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "http://burntfen.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ipfs/ipfs-readme-standard/issues"
   },
-  "homepage": "https://github.com/ipfs/ipfs-readme-standard#readme",
-  "dependencies": {
-    "graceful-fs": "^4.1.2",
-    "mdast": "^2.1.0",
-    "mdast-lint": "^1.1.1",
-    "remark-title": "^1.0.0"
+  "homepage": "https://github.com/RichardLitt/standard-readme",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/standard-readme/issues"
   },
-  "devDependencies": {
-    "babel-cli": "^6.3.17"
+  "dependencies": {
+    "graceful-fs": "^4.1.2"
   },
   "coordinates": [
     42.3811742,
