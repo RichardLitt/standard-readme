@@ -14,6 +14,8 @@ This repo is for standardizing how READMEs should look. The goal is to have:
 
 ## Table of Contents
 
+- [Background](#background)
+  - [Goals:](#goals)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Specification](#specification)
@@ -24,16 +26,16 @@ This repo is for standardizing how READMEs should look. The goal is to have:
     - [Badges](#badges)
     - [Short Description](#short-description)
     - [Long Description](#long-description)
-    - [Table of Contents](#table-of-contents)
+    - [Table of Contents](#table-of-contents-1)
     - [Security](#security)
     - [Background section](#background-section)
     - [Installation](#installation-1)
     - [Usage Section](#usage-section)
     - [Extra Sections](#extra-sections)
     - [API](#api)
-    - [Contribute](#contribute-1)
+    - [Contribute](#contribute)
     - [License](#license)
-- [Contribute](#contribute)
+- [Contribute](#contribute-1)
 - [License](#license-1)
 
 ## Background
