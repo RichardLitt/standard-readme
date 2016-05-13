@@ -12,7 +12,7 @@ This repo is for standardizing how READMEs should look. The goal is to have:
   - A linter that can be used to look at errors in a given Readme;
   - A generator that can be used to quickly scaffold out new READMEs.
 
-** Table of Contents **
+## Table of Contents**
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -122,8 +122,7 @@ A compliant README must:
 **Status:** Required.  
 **Requirements:**
 - Must link to all Markdown sections in the file.
-- Must not have a Markdown header, `####`, but must be in bold, on it's own line.
-- Must start with the next section; do not include the title.
+- Must start with the next section; do not include the title or Table of Contents headings.
 
 #### Security
 **Status**: Optional.  
