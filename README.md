@@ -135,7 +135,7 @@ A compliant README must:
 **Requirements:**
 - Cover motivation.
 - Cover abstract dependencies.
-- Cover intellecutal provenance.
+- Cover intellecutal provenance: A `See Also` section is also fitting.
 
 #### Installation
 **Status:** Required.  
@@ -160,6 +160,7 @@ Subsections:
 
 Subsections:
 - `CLI`. Required if CLI functionality exists.
+- If relevant, point to a runnable file for the usage code.
 
 **Suggestions:**
 - Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
@@ -172,11 +173,11 @@ Subsections:
 #### API
 **Status:** Optional.  
 **Requirements:**
-- Describe exported functions and objects. 
+- Describe exported functions and objects.
 
 **Suggestions:**
 - Describe signatures, return types, callbacks, and events.
-- Cover types covered where not obvious. 
+- Cover types covered where not obvious.
 - Describe caveats.
 
 #### Contribute
