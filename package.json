@@ -1,6 +1,6 @@
 {
   "name": "standard-readme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Readme Standard Style",
   "main": "index.js",
   "scripts": {
@@ -24,17 +24,14 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ipfs/ipfs-readme-standard/issues"
-  },
-  "homepage": "https://github.com/RichardLitt/standard-readme",
-  "bugs": {
     "url": "https://github.com/RichardLitt/standard-readme/issues"
   },
+  "homepage": "https://github.com/RichardLitt/standard-readme",
   "dependencies": {
     "graceful-fs": "^4.1.2"
   },
   "coordinates": [
-    42.3811742,
-    -71.0972239
+    42.3957206,
+    -71.12188019999999
   ]
 }
