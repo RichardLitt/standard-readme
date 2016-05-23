@@ -66,6 +66,10 @@ $ standard-readme
 // Will output spec (this Readme)
 ```
 
+### Example Readmes
+
+To see how the specification has been applied, see the [example-readmes](example-readmes/).
+
 ## Specification
 
 ### Requirements
