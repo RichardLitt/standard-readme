@@ -149,6 +149,10 @@ progressively greater amount of knowledge.
 **Requirements:**
 - Must link to all Markdown sections in the file.
 - Must start with the next section; do not include the title or Table of Contents headings.
+- Must be at least one-depth: must capture all `##` headings.
+
+**Suggestions:**
+- May capture third and fourth depth headings. If it is a long ToC, these are optional.
 
 #### Security
 **Status**: Optional.  
