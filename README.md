@@ -208,6 +208,7 @@ Subsections:
 - Describe signatures, return types, callbacks, and events.
 - Cover types covered where not obvious.
 - Describe caveats.
+- If using an external API generator (like go-doc, js-doc, or so on), point to an external `API.md` file. This can be the only item in the section, if present.
 
 #### Contribute
 **Status**: Required.  
