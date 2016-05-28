@@ -90,6 +90,9 @@ A compliant README must:
   - Sections must appear in order delineated below. Optional sections may be omitted.
   - Must be new lines between each section.
 
+**Suggestions:**
+- A "Back to Top" link for longer sections can be useful, but is not required by any means.
+
 ### Sections
 
 #### Title
