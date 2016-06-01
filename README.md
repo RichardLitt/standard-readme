@@ -50,7 +50,7 @@ change the module's internals as long as the interface remains the same.
 
 > Remember: the documentation, not the code, defines what a module does.
 
-~ [Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
+~ [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
 
 ### Goals:
 1. A well defined **specification**. This can be found in the [Specification](#specification) section. It is a constant work in progress; please open issues to discuss changes.
@@ -136,7 +136,7 @@ A compliant README must:
 **Suggestions:**
 - If too long, consider moving to the [Background](#background) section.
 - Cover the main reasons for building the repository.
-- This should describe your module in broad terms, 
+- "This should describe your module in broad terms,
 generally in just a few paragraphs; more detail of the module's
 routines or methods, lengthy code examples, or other in-depth
 material should be given in subsequent sections.
@@ -144,7 +144,9 @@ material should be given in subsequent sections.
   Ideally, someone who's slightly familiar with your module should be
 able to refresh their memory without hitting "page down". As your
 reader continues through the document, they should receive a
-progressively greater amount of knowledge.
+progressively greater amount of knowledge."
+
+  ~ [Kirrily "Skud" Robert, perlmodstyle](http://perldoc.perl.org/perlmodstyle.html)
 
 
 #### Table of Contents
