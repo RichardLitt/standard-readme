@@ -222,6 +222,7 @@ Subsections:
 - State where users can ask questions.
 - State whether PRs are accepted.
 - List any requirements for contributing; for instance, having a sign-off on commits.
+- Link to Code of Conduct.
 
 **Suggestions:**
 - Be as friendly as possible.
