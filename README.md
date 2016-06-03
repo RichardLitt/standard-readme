@@ -19,6 +19,7 @@ This repo is for standardizing how READMEs should look. The goal is to have:
   - [Goals:](#goals)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Badge](#badge)
 - [Specification](#specification)
   - [Requirements](#requirements)
   - [Sections](#sections)
@@ -79,11 +80,15 @@ $ standard-readme
 
 ### Badge
 
-If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge:
+If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
+To add in Markdown format, use this code:
+
+```
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+```
 
 ### Example Readmes
 
