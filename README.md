@@ -232,15 +232,15 @@ Subsections:
 #### Contribute
 **Status**: Required.  
 **Requirements:**
-- Link to `CONTRIBUTE.md` file if there is one.
 - State where users can ask questions.
 - State whether PRs are accepted.
 - List any requirements for contributing; for instance, having a sign-off on commits.
-- Link to Code of Conduct.
 
 **Suggestions:**
+- Link to `CONTRIBUTE.md` file -- if there is one.
 - Be as friendly as possible.
 - Link to the GitHub issues.
+- Link to Code of Conduct. This is often in Contribute, or organization wide, so may not be necessary for each module.
 
 #### License
 **Status:** Required.  
