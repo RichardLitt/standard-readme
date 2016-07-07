@@ -26,7 +26,7 @@ This repo is for standardizing how READMEs should look. The goal is to have a sp
     - [Long Description](#long-description)
     - [Table of Contents](#table-of-contents-1)
     - [Security](#security)
-    - [Background section](#background-section)
+    - [Background Section](#background-section)
     - [Installation](#installation-1)
     - [Usage Section](#usage-section)
     - [Extra Sections](#extra-sections)
@@ -178,7 +178,7 @@ progressively greater amount of knowledge."
 **Requirements:**
 - May go here if visibility of security section is important. Otherwise, should be in [Extra Sections](#extra-sections).
 
-#### Background section
+#### Background Section
 **Status:** Optional.  
 **Requirements:**
 - Cover motivation.
