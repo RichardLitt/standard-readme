@@ -141,7 +141,7 @@ Subsections:
 - List any requirements for contributing; for instance, having a sign-off on commits.
 
 **Suggestions:**
-- Link to `CONTRIBUTE.md` file -- if there is one.
+- Link to a contributing or contribute file -- if there is one.
 - Be as friendly as possible.
 - Link to the GitHub issues.
 - Link to Code of Conduct. This is often in Contribute, or organization wide, so may not be necessary for each module.
