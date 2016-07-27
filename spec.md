@@ -82,7 +82,7 @@ progressively greater amount of knowledge."
 **Requirements:**
 - May go here if visibility of security section is important. Otherwise, should be in [Extra Sections](#extra-sections).
 
-#### Background Section
+#### Background
 **Status:** Optional.  
 **Requirements:**
 - Cover motivation.
@@ -103,7 +103,7 @@ Subsections:
 - Include any system-specific information needed for Installation.
 - Subsection for dependencies needed for install to work. 
 
-#### Usage Section
+#### Usage
 **Status:** Required.  
 **Requirements:**
 - Code block illustrating common usage.
