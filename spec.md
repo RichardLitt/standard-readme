@@ -99,9 +99,10 @@ Subsections:
 - `Updating`. Optional.
 
 **Suggestions:**
-- Link to prerequisite sites for language. [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
+- Link to prerequisite sites for language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
 - Include any system-specific information needed for Installation.
-- Subsection for dependencies needed for install to work. 
+- Subsection for dependencies needed for install to work.
+- If there is no code in the module - for instance, a document-based module - this section is not required.
 
 #### Usage
 **Status:** Required.  
@@ -116,6 +117,7 @@ Subsections:
 
 **Suggestions:**
 - Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
+- If there is no code in the module - for instance, a document-based module - this section is not required.
 
 #### Extra Sections
 **Status**: Optional.  
