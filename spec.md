@@ -68,7 +68,7 @@ progressively greater amount of knowledge."
 
 
 #### Table of Contents
-**Status:** Required.  
+**Status:** Required by default, optional for READMEs less than 100 lines.
 **Requirements:**
 - Must link to all Markdown sections in the file.
 - Must start with the next section; do not include the title or Table of Contents headings.
@@ -90,7 +90,7 @@ progressively greater amount of knowledge."
 - Cover intellecutal provenance: A `See Also` section is also fitting.
 
 #### Install
-**Status:** Required.  
+**Status:** Required by default, optional for doc modules.
 **Requirements:**
 - Code block illustrating how to install.
 
@@ -99,12 +99,13 @@ Subsections:
 - `Updating`. Optional.
 
 **Suggestions:**
-- Link to prerequisite sites for language. [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
+- Link to prerequisite sites for language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
 - Include any system-specific information needed for Installation.
-- Subsection for dependencies needed for install to work. 
+- Subsection for dependencies needed for install to work.
+- If there is no code in the module - for instance, a document-based module - this section is not required.
 
 #### Usage
-**Status:** Required.  
+**Status:** Required by default, optional for doc modules.
 **Requirements:**
 - Code block illustrating common usage.
 - If CLI compatible, code block indicating common usage.
@@ -116,6 +117,7 @@ Subsections:
 
 **Suggestions:**
 - Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
+- If there is no code in the module - for instance, a document-based module - this section is not required.
 
 #### Extra Sections
 **Status**: Optional.  
