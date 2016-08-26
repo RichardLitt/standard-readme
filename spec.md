@@ -1,55 +1,61 @@
-## Specification
+# Specification
 
-### Requirements
+A compliant README must satisfy all the requirements listed below.
 
-A compliant README must:
+**Requirements:**
   - Be called README.md (with capitalization).
   - Be a valid Markdown file.
-  - Sections must appear in order delineated below. Optional sections may be omitted.
+  - Sections must appear in order given below. Optional sections may be omitted.
+  - Sections must have the titles listed below, unless otherwise specified.
   - Must be new lines between each section.
 
 **Suggestions:**
 - A "Back to Top" link for longer sections can be useful, but is not required by any means.
 
-### Sections
+## Sections
 
-#### Title
-**Status:** Required.  
+### Title
+**Status:** Required.
 **Requirements:**
-- Must match repository name. If it cannot, there must be a note in the long description about why.
-- Must match package manager name. If it cannot, there must be a note in the long description about why.
+- Title must match repository and package manager names. If any of these don't match, there must be a note in the [Long Description](#long-description) explaining why.
 
 **Suggestions:**
 - Should be self-evident.
 
-#### Banner
-**Status:** Optional.  
+### Banner
+**Status:** Optional.
 **Requirements:**
+- Does not require its own title.
 - Must link to local image in current repository.
 - Must appear directly after the title.
 
-#### Badges
-**Status:** Optional.  
+### Badges
+**Status:** Optional.
 **Requirements:**
+- Does not require a title of its own.
 - Must be newline delimited.
 
-#### Short Description
-**Status:** Required.  
+**Suggestions:**
+- Use http://shields.io or a similar service to create and host the images.
+
+### Short Description
+**Status:** Required.
 **Requirements:**
+- Does not require its own title.
 - Must be less than 120 characters.
 - Must start with `> `
 - Must be on it's own line.
-- Must match the description in the packager manager's `description` field. 
+- Must match the description in the packager manager's `description` field.
 - Must match GitHub's description (if on GitHub).
 
 **Suggestions:**
 - Use [gh-description](https://github.com/RichardLitt/gh-description) to set and get GitHub description.
 - Use `npm show . description` to show the description from a local [npm](https://npmjs.com) package.
 
-#### Long Description
-**Status:** Optional.  
+### Long Description
+**Status:** Optional.
 **Requirements:**
-- Must have no heading.
+- Does not require its own title.
 
 **Suggestions:**
 - If too long, consider moving to the [Background](#background) section.
@@ -66,8 +72,7 @@ progressively greater amount of knowledge."
 
   ~ [Kirrily "Skud" Robert, perlmodstyle](http://perldoc.perl.org/perlmodstyle.html)
 
-
-#### Table of Contents
+### Table of Contents
 **Status:** Required by default, optional for READMEs less than 100 lines.
 **Requirements:**
 - Must link to all Markdown sections in the file.
@@ -77,55 +82,59 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - May capture third and fourth depth headings. If it is a long ToC, these are optional.
 
-#### Security
-**Status**: Optional.  
+### Security
+**Status**: Optional.
 **Requirements:**
-- May go here if visibility of security section is important. Otherwise, should be in [Extra Sections](#extra-sections).
+- May go here if it is important to highlight security concerns. Otherwise, it should be in [Extra Sections](#extra-sections).
 
-#### Background
-**Status:** Optional.  
+### Background
+**Status:** Optional.
 **Requirements:**
 - Cover motivation.
 - Cover abstract dependencies.
 - Cover intellecutal provenance: A `See Also` section is also fitting.
 
-#### Install
+### Install
 **Status:** Required by default, optional for doc modules.
 **Requirements:**
 - Code block illustrating how to install.
 
-Subsections:
-- `Dependencies`. Required if necessary.
+**Subsections:**
+- `Dependencies`. Required if there are dependencies.
 - `Updating`. Optional.
 
 **Suggestions:**
-- Link to prerequisite sites for language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
-- Include any system-specific information needed for Installation.
-- Subsection for dependencies needed for install to work.
+- Link to prerequisite sites for programming language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
+- Include any system-specific information needed for installation.
 - If there is no code in the module - for instance, a document-based module - this section is not required.
 
-#### Usage
+### Usage
 **Status:** Required by default, optional for doc modules.
 **Requirements:**
 - Code block illustrating common usage.
 - If CLI compatible, code block indicating common usage.
-- If importable, code block indicating both import functionality and usage. 
+- If importable, code block indicating both import functionality and usage.
 
-Subsections:
+**Subsections:**
 - `CLI`. Required if CLI functionality exists.
-- If relevant, point to a runnable file for the usage code.
 
 **Suggestions:**
 - Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
+- If relevant, point to a runnable file for the usage code.
 - If there is no code in the module - for instance, a document-based module - this section is not required.
 
-#### Extra Sections
-**Status**: Optional.  
+### Extra Sections
+**Status**: Optional.
 **Requirements:**
 - None.
 
-#### API
-**Status:** Optional.  
+**Suggestions:**
+- Does not require its own title.
+- Any other sections that are relevant should be added here, after [Usage](#usage) and before [API](#api).
+- Specfically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
+
+### API
+**Status:** Optional.
 **Requirements:**
 - Describe exported functions and objects.
 
@@ -135,8 +144,8 @@ Subsections:
 - Describe caveats.
 - If using an external API generator (like go-doc, js-doc, or so on), point to an external `API.md` file. This can be the only item in the section, if present.
 
-#### Contribute
-**Status**: Required.  
+### Contribute
+**Status**: Required.
 **Requirements:**
 - State where users can ask questions.
 - State whether PRs are accepted.
@@ -148,8 +157,8 @@ Subsections:
 - Link to the GitHub issues.
 - Link to Code of Conduct. This is often in Contribute, or organization wide, so may not be necessary for each module.
 
-#### License
-**Status:** Required.  
+### License
+**Status:** Required.
 **Requirements:**
 - State license initials or name.
 - State license owner.
