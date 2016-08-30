@@ -100,7 +100,7 @@ progressively greater amount of knowledge."
 **Requirements:**
 - Cover motivation.
 - Cover abstract dependencies.
-- Cover intellecutal provenance: A `See Also` section is also fitting.
+- Cover intellectual provenance: A `See Also` section is also fitting.
 
 ### Install
 **Status:** Required by default, optional for doc modules.
@@ -142,7 +142,7 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - Does not require its own title, however the sections included within it must have titles.
 - This should contain any other sections that are relevant, placed after [Usage](#usage) and before [API](#api).
-- Specfically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
+- Specifically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
 
 ### API
 **Status:** Optional.
