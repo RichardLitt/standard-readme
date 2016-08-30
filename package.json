@@ -1,6 +1,6 @@
 {
   "name": "standard-readme",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Readme Standard Style",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "graceful-fs": "^4.1.2"
   },
   "coordinates": [
-    42.3811736,
-    -71.0972056
+    42.3957744,
+    -71.12183519999999
   ]
 }
