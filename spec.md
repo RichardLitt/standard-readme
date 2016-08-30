@@ -16,6 +16,7 @@ A compliant README must satisfy all the requirements listed below.
 
 ### Title
 **Status:** Required.
+
 **Requirements:**
 - Title must match repository and package manager names. If any of these don't match, there must be a note in the [Long Description](#long-description) explaining why.
 
@@ -24,6 +25,7 @@ A compliant README must satisfy all the requirements listed below.
 
 ### Banner
 **Status:** Optional.
+
 **Requirements:**
 - Does not require its own title.
 - Must link to local image in current repository.
@@ -31,6 +33,7 @@ A compliant README must satisfy all the requirements listed below.
 
 ### Badges
 **Status:** Optional.
+
 **Requirements:**
 - Does not require a title of its own.
 - Must be newline delimited.
@@ -40,6 +43,7 @@ A compliant README must satisfy all the requirements listed below.
 
 ### Short Description
 **Status:** Required.
+
 **Requirements:**
 - Does not require its own title.
 - Must be less than 120 characters.
@@ -54,6 +58,7 @@ A compliant README must satisfy all the requirements listed below.
 
 ### Long Description
 **Status:** Optional.
+
 **Requirements:**
 - Does not require its own title.
 
@@ -74,6 +79,7 @@ progressively greater amount of knowledge."
 
 ### Table of Contents
 **Status:** Required by default, optional for READMEs less than 100 lines.
+
 **Requirements:**
 - Must link to all Markdown sections in the file.
 - Must start with the next section; do not include the title or Table of Contents headings.
@@ -84,11 +90,13 @@ progressively greater amount of knowledge."
 
 ### Security
 **Status**: Optional.
+
 **Requirements:**
 - May go here if it is important to highlight security concerns. Otherwise, it should be in [Extra Sections](#extra-sections).
 
 ### Background
 **Status:** Optional.
+
 **Requirements:**
 - Cover motivation.
 - Cover abstract dependencies.
@@ -96,6 +104,7 @@ progressively greater amount of knowledge."
 
 ### Install
 **Status:** Required by default, optional for doc modules.
+
 **Requirements:**
 - Code block illustrating how to install.
 
@@ -110,6 +119,7 @@ progressively greater amount of knowledge."
 
 ### Usage
 **Status:** Required by default, optional for doc modules.
+
 **Requirements:**
 - Code block illustrating common usage.
 - If CLI compatible, code block indicating common usage.
@@ -125,6 +135,7 @@ progressively greater amount of knowledge."
 
 ### Extra Sections
 **Status**: Optional.
+
 **Requirements:**
 - None.
 
@@ -135,6 +146,7 @@ progressively greater amount of knowledge."
 
 ### API
 **Status:** Optional.
+
 **Requirements:**
 - Describe exported functions and objects.
 
@@ -146,6 +158,7 @@ progressively greater amount of knowledge."
 
 ### Contribute
 **Status**: Required.
+
 **Requirements:**
 - State where users can ask questions.
 - State whether PRs are accepted.
@@ -159,6 +172,7 @@ progressively greater amount of knowledge."
 
 ### License
 **Status:** Required.
+
 **Requirements:**
 - State license initials or name.
 - State license owner.
