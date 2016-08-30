@@ -109,7 +109,7 @@ progressively greater amount of knowledge."
 - Code block illustrating how to install.
 
 **Subsections:**
-- `Dependencies`. Required if there are dependencies.
+- `Dependencies`. Required if there are unusual dependencies or dependencies that must be manually installed.
 - `Updating`. Optional.
 
 **Suggestions:**
@@ -140,8 +140,8 @@ progressively greater amount of knowledge."
 - None.
 
 **Suggestions:**
-- Does not require its own title.
-- Any other sections that are relevant should be added here, after [Usage](#usage) and before [API](#api).
+- Does not require its own title, however the sections included within it must have titles.
+- This should contain any other sections that are relevant, placed after [Usage](#usage) and before [API](#api).
 - Specfically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
 
 ### API
