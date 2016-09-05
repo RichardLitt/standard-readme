@@ -1,6 +1,6 @@
 {
   "name": "standard-readme",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Readme Standard Style",
   "main": "index.js",
   "scripts": {
@@ -27,10 +27,9 @@
     "url": "https://github.com/RichardLitt/standard-readme/issues"
   },
   "homepage": "https://github.com/RichardLitt/standard-readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "coordinates": [
-    42.3957744,
-    -71.12183519999999
+    42.3803274,
+    -71.13891009999999
   ]
 }
