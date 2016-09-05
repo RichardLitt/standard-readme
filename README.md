@@ -60,21 +60,16 @@ The goals for this repository are:
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ```sh
-$ npm i -g standard-readme
+$ npm i standard-readme
 ```
 
 ## Usage
 
-Currently, this is only a README spec.
-
-```
-$ standard-readme
-// Will print spec.md to the console
-```
+Currently, this is mainly a documentation package. You will get the most benefit by reading [spec.md](spec.md).
 
 ### Generator
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
+To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
 ### Badge
 

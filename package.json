@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/RichardLitt/standard-readme",
   "dependencies": {
-    "graceful-fs": "^4.1.2"
   },
   "coordinates": [
     42.3957744,
