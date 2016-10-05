@@ -8,6 +8,7 @@ A compliant README must satisfy all the requirements listed below.
   - Sections must appear in order given below. Optional sections may be omitted.
   - Sections must have the titles listed below, unless otherwise specified.
   - Must be new lines between each section.
+  - Must not contain broken links
 
 **Suggestions:**
 - A "Back to Top" link for longer sections can be useful, but is not required by any means.
