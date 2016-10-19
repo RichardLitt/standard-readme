@@ -13,6 +13,26 @@ A compliant README must satisfy all the requirements listed below.
 **Suggestions:**
 - A "Back to Top" link for longer sections can be useful, but is not required by any means.
 
+## Table of Contents
+
+_Note: This is only a navigation guide for the specification, and does not define or mandate terms for any specification-compliant documents._
+
+- [Sections](#sections)
+  - [Title](#title)
+  - [Banner](#banner)
+  - [Badges](#badges)
+  - [Short Description](#short-description)
+  - [Long Description](#long-description)
+  - [Table of Contents](#table-of-contents)
+  - [Security](#security)
+  - [Background](#background)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Extra Sections](#extra-sections)
+  - [API](#api)
+  - [Contribute](#contribute)
+  - [License](#license)
+
 ## Sections
 
 ### Title
