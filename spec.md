@@ -157,6 +157,17 @@ progressively greater amount of knowledge."
 - Describe caveats.
 - If using an external API generator (like go-doc, js-doc, or so on), point to an external `API.md` file. This can be the only item in the section, if present.
 
+### Maintainer(s)
+**Status**: Required.
+
+**Requirements:**
+- Must be called `Maintainer` or `Maintainers`.
+- List maintainer(s) for a repository, along with one way of contacting them (e.g. GitHub link or email).
+
+**Suggestions:**
+- This should be a small list of people in charge of the repo. This should not be everyone with access rights, such as an entire organization, but the people who should be pinged and who are in charge of the directon and maintenance of the repository.
+- Listing past maintainers is good for attribution, and kind.
+
 ### Contribute
 **Status**: Required.
 
@@ -170,6 +181,7 @@ progressively greater amount of knowledge."
 - Be as friendly as possible.
 - Link to the GitHub issues.
 - Link to Code of Conduct. This is often in Contribute, or organization wide, so may not be necessary for each module.
+- A subsection for listing contributors is also welcome here.
 
 ### License
 **Status:** Required.
