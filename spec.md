@@ -19,7 +19,13 @@ A compliant README must satisfy all the requirements listed below.
 **Status:** Required.
 
 **Requirements:**
-- Title must match repository and package manager names. If any of these don't match, there must be a note in the [Long Description](#long-description) explaining why.
+- Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses. For instance:
+
+  ```markdown
+  # Standard Readme Style _(standard-readme)_
+  ```
+
+  If any of the folder, repository, or package manager names do not match, there must be a note in the [Long Description](#long-description) explaining why.
 
 **Suggestions:**
 - Should be self-evident.
@@ -62,6 +68,7 @@ A compliant README must satisfy all the requirements listed below.
 
 **Requirements:**
 - Does not require its own title.
+- If any of the folder, repository, or package manager names do not match, there must be a note here as to why. See [Title section](#title).
 
 **Suggestions:**
 - If too long, consider moving to the [Background](#background) section.
