@@ -4,6 +4,7 @@ A compliant README must satisfy all the requirements listed below.
 
 **Requirements:**
   - Be called README.md (with capitalization).
+  - If the project supports i18n, the file must be named accordingly: `README.de.md`, where `de` is the BCP 47 Language tag. For naming, prioritize non-regional subtags for languages.
   - Be a valid Markdown file.
   - Sections must appear in order given below. Optional sections may be omitted.
   - Sections must have the titles listed below, unless otherwise specified.
