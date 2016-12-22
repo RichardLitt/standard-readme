@@ -23,7 +23,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [Badges](#badges)
   - [Short Description](#short-description)
   - [Long Description](#long-description)
-  - [Table of Contents](#table-of-contents)
+  - [Table of Contents](#table-of-contents-1)
   - [Security](#security)
   - [Background](#background)
   - [Install](#install)
