@@ -13,7 +13,7 @@ This is a long description.
 
 - [Security](#security)
 - [Background](#background)
-- [Installation](#installation)
+- [Install](#install)
 - [Usage](#usage)
 - [API](#api)
 - [Contribute](#contribute)
