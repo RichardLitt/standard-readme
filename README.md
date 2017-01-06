@@ -21,7 +21,7 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#background)
-- [Installation](#installation)
+- [Install](#install)
 - [Usage](#usage)
   - [Generator](#generator)
   - [Badge](#badge)
