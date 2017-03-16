@@ -95,4 +95,4 @@ Standard Readme follows the [Contributor Covenant](http://contributor-covenant.o
 
 ## License
 
-MIT (c) Protocol Labs
+[MIT](LICENSE) © Richard Littauer
