@@ -87,6 +87,10 @@ To add in Markdown format, use this code:
 
 To see how the specification has been applied, see the [example-readmes](example-readmes/).
 
+## Maintainers
+
+[@RichardLitt](https://github.com/RichardLitt).
+
 ## Contribute
 
 Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
