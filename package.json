@@ -2,10 +2,7 @@
   "name": "standard-readme",
   "version": "1.0.28",
   "description": "Readme Standard Style",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "cat.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RichardLitt/standard-readme.git"
@@ -15,7 +12,11 @@
     "markdown",
     "readme",
     "parse",
-    "lint"
+    "lint",
+    "standard-readme",
+    "spec",
+    "md",
+    "documentation"
   ],
   "author": {
     "name": "Richard Littauer",
