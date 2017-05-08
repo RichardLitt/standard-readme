@@ -107,7 +107,7 @@ progressively greater amount of knowledge."
   ~ [Kirrily "Skud" Robert, perlmodstyle](http://perldoc.perl.org/perlmodstyle.html)
 
 ### Table of Contents
-**Status:** Required by default, optional for READMEs less than 100 lines.
+**Status:** Required; optional for READMEs less than 100 lines.
 
 **Requirements:**
 - Must link to all Markdown sections in the file.
