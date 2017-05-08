@@ -1,6 +1,6 @@
 {
   "name": "standard-readme-spec",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Readme Standard Style",
   "main": "cat.js",
   "bin": "standard-readme-spec",
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/RichardLitt/standard-readme",
   "dependencies": {},
   "coordinates": [
-    52.51285379999999,
-    13.4528379
+    52.5129054,
+    13.4528537
   ]
 }
