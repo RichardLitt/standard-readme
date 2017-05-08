@@ -94,7 +94,7 @@ To see how the specification has been applied, see the [example-readmes](example
 ## Related Efforts
 
 - [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
-- [open-source-effort](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
+- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
 
 ## Maintainers
 
