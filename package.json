@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "Readme Standard Style",
   "main": "cat.js",
-  "bin": "standard-readme-spec",
+  "bin": "cat.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RichardLitt/standard-readme.git"
