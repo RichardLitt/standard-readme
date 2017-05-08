@@ -21,8 +21,8 @@ This repository contains:
 - [Install](#install)
 - [Usage](#usage)
 	- [Generator](#generator)
-	- [Badge](#badge)
-	- [Example Readmes](#example-readmes)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
@@ -70,7 +70,7 @@ Currently, this is mainly a documentation package. You will get the most benefit
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
-### Badge
+## Badge
 
 If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
@@ -82,7 +82,7 @@ To add in Markdown format, use this code:
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ```
 
-### Example Readmes
+## Example Readmes
 
 To see how the specification has been applied, see the [example-readmes](example-readmes/).
 
