@@ -20,9 +20,11 @@ This repository contains:
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-  - [Generator](#generator)
-  - [Badge](#badge)
-  - [Example Readmes](#example-readmes)
+	- [Generator](#generator)
+	- [Badge](#badge)
+	- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -83,6 +85,11 @@ To add in Markdown format, use this code:
 ### Example Readmes
 
 To see how the specification has been applied, see the [example-readmes](example-readmes/).
+
+## Related Efforts
+
+- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
+- [open-source-effort](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
 
 ## Maintainers
 
