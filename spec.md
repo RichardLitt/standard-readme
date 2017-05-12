@@ -77,7 +77,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 - Does not require its own title.
 - Must be less than 120 characters.
 - Must start with `> `
-- Must be on it's own line.
+- Must be on its own line.
 - Must match the description in the packager manager's `description` field.
 - Must match GitHub's description (if on GitHub).
 
@@ -108,7 +108,7 @@ progressively greater amount of knowledge."
   ~ [Kirrily "Skud" Robert, perlmodstyle](http://perldoc.perl.org/perlmodstyle.html)
 
 ### Table of Contents
-**Status:** Required; optional for READMEs less than 100 lines.
+**Status:** Required; optional for READMEs shorter than 100 lines.
 
 **Requirements:**
 - Must link to all Markdown sections in the file.
@@ -194,7 +194,7 @@ progressively greater amount of knowledge."
 - List maintainer(s) for a repository, along with one way of contacting them (e.g. GitHub link or email).
 
 **Suggestions:**
-- This should be a small list of people in charge of the repo. This should not be everyone with access rights, such as an entire organization, but the people who should be pinged and who are in charge of the directon and maintenance of the repository.
+- This should be a small list of people in charge of the repo. This should not be everyone with access rights, such as an entire organization, but the people who should be pinged and who are in charge of the direction and maintenance of the repository.
 - Listing past maintainers is good for attribution, and kind.
 
 ### Contribute
