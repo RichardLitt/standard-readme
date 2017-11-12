@@ -1,5 +1,7 @@
 # Standard Readme
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/standard-readme.svg)](https://greenkeeper.io/)
+
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > Standard Readme Style
