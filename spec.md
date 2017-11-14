@@ -34,6 +34,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [API](#api)
   - [Contribute](#contribute)
   - [License](#license)
+- [Definitions](#definitions)
 
 ## Sections
 
@@ -133,7 +134,7 @@ progressively greater amount of knowledge."
 - Cover intellectual provenance: A `See Also` section is also fitting.
 
 ### Install
-**Status:** Required by default, optional for doc modules.
+**Status:** Required by default, optional for [documentation repositories](#definitions).
 
 **Requirements:**
 - Code block illustrating how to install.
@@ -148,7 +149,7 @@ progressively greater amount of knowledge."
 - If there is no code in the module - for instance, a document-based module - this section is not required.
 
 ### Usage
-**Status:** Required by default, optional for doc modules.
+**Status:** Required by default, optional for [documentation repositories](#definitions).
 
 **Requirements:**
 - Code block illustrating common usage.
@@ -222,3 +223,9 @@ progressively greater amount of knowledge."
 
 **Suggestions:**
 - Link to longer License file in local repository.
+
+## Definitions
+
+_These definitions are provided to clarify any terms used above._
+
+- **Documentation repositories**: Repositories without any functional code. For instance, [RichardLitt/knowledge](https://github.com/RichardLitt/knowledge).
