@@ -12,9 +12,6 @@ A compliant README must satisfy all the requirements listed below.
   - Must not contain broken links.
   - If there are code examples, they should be linted in the same way as the code is linted in the rest of the project.
 
-**Suggestions:**
-- A "Back to Top" link for longer sections can be useful, but is not required by any means.
-
 ## Table of Contents
 
 _Note: This is only a navigation guide for the specification, and does not define or mandate terms for any specification-compliant documents._
