@@ -167,7 +167,7 @@ progressively greater amount of knowledge."
 - None.
 
 **Suggestions:**
-- Must not its own title. The sections included within it must have titles.
+- This should not be called `Extra Sections`. This is a space for 0 or more sections to be included, each of which must have their have titles.
 - This should contain any other sections that are relevant, placed after [Usage](#usage) and before [API](#api).
 - Specifically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
 
