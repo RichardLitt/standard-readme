@@ -53,7 +53,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 **Status:** Optional.
 
 **Requirements:**
-- Does not require its own title.
+- Must not have its own title.
 - Must link to local image in current repository.
 - Must appear directly after the title.
 
@@ -61,7 +61,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 **Status:** Optional.
 
 **Requirements:**
-- Does not require a title of its own.
+- Must not have its own title.
 - Must be newline delimited.
 
 **Suggestions:**
@@ -71,7 +71,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 **Status:** Required.
 
 **Requirements:**
-- Does not require its own title.
+- Must not have its own title.
 - Must be less than 120 characters.
 - Must start with `> `
 - Must be on its own line.
@@ -86,7 +86,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 **Status:** Optional.
 
 **Requirements:**
-- Does not require its own title.
+- Must not have its own title.
 - If any of the folder, repository, or package manager names do not match, there must be a note here as to why. See [Title section](#title).
 
 **Suggestions:**
@@ -167,7 +167,7 @@ progressively greater amount of knowledge."
 - None.
 
 **Suggestions:**
-- Does not require its own title, however the sections included within it must have titles.
+- Must not its own title. The sections included within it must have titles.
 - This should contain any other sections that are relevant, placed after [Usage](#usage) and before [API](#api).
 - Specifically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
 
