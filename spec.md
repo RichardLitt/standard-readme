@@ -8,7 +8,6 @@ A compliant README must satisfy all the requirements listed below.
   - Be a valid Markdown file.
   - Sections must appear in order given below. Optional sections may be omitted.
   - Sections must have the titles listed below, unless otherwise specified.
-  - Must be new lines between each section.
   - Must not contain broken links.
   - If there are code examples, they should be linted in the same way as the code is linted in the rest of the project.
 
