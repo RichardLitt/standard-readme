@@ -136,12 +136,12 @@ progressively greater amount of knowledge."
 
 **Subsections:**
 - `Dependencies`. Required if there are unusual dependencies or dependencies that must be manually installed.
-- `Updating`. Optional.
 
 **Suggestions:**
 - Link to prerequisite sites for programming language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
 - Include any system-specific information needed for installation.
 - If there is no code in the module - for instance, a document-based module - this section is not required.
+- An `Updating` section would be useful for most packages, if there are multiple versions which the user may interface with.
 
 ### Usage
 **Status:** Required by default, optional for doc modules.
