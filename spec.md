@@ -206,7 +206,7 @@ progressively greater amount of knowledge."
 - Link to a contributing or contribute file -- if there is one.
 - Be as friendly as possible.
 - Link to the GitHub issues.
-- Link to a Code of Conduct. A Code is often in the Contribute section or document, or set elsewhere for an entire organization, so it may not be necessary to include a link for each module.
+- Link to a Code of Conduct. A CoC is often in the Contribute section or document, or set elsewhere for an entire organization, so it may not be necessary to include the entire file in each repository. However, it is highly recommended to always link to the code, wherever it lives.
 - A subsection for listing contributors is also welcome here.
 
 ### License
