@@ -30,6 +30,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [API](#api)
   - [Contribute](#contribute)
   - [License](#license)
+- [Definitions](#definitions)
 
 ## Sections
 
@@ -129,7 +130,7 @@ progressively greater amount of knowledge."
 - Cover intellectual provenance: A `See Also` section is also fitting.
 
 ### Install
-**Status:** Required by default, optional for doc modules.
+**Status:** Required by default, optional for [documentation repositories](#definitions).
 
 **Requirements:**
 - Code block illustrating how to install.
@@ -144,7 +145,7 @@ progressively greater amount of knowledge."
 - An `Updating` section would be useful for most packages, if there are multiple versions which the user may interface with.
 
 ### Usage
-**Status:** Required by default, optional for doc modules.
+**Status:** Required by default, optional for [documentation repositories](#definitions).
 
 **Requirements:**
 - Code block illustrating common usage.
@@ -212,9 +213,15 @@ progressively greater amount of knowledge."
 **Status:** Required.
 
 **Requirements:**
-- State license initials or name.
+- State license full name or identifier, as listed on the  [SPDX](https://spdx.org/licenses/) license list. For unlicensed repositories, add `UNLICENSED`. For more details, add `SEE LICENSE IN <filename>` and link to the license file. (These requirements were adapted from [npm](https://docs.npmjs.com/files/package.json#license)).
 - State license owner.
 - Must be last section.
 
 **Suggestions:**
 - Link to longer License file in local repository.
+
+## Definitions
+
+_These definitions are provided to clarify any terms used above._
+
+- **Documentation repositories**: Repositories without any functional code. For instance, [RichardLitt/knowledge](https://github.com/RichardLitt/knowledge).
