@@ -216,7 +216,7 @@ progressively greater amount of knowledge."
 **Status:** Required.
 
 **Requirements:**
-- State license initials or name.
+- State license full name or identifier, as listed on the  [SPDX](https://spdx.org/licenses/) license list. For unlicensed repositories, add `UNLICENSED`. For more details, add `SEE LICENSE IN <filename>` and link to the license file. (These requirements were adapted from [npm](https://docs.npmjs.com/files/package.json#license)).
 - State license owner.
 - Must be last section.
 
