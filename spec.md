@@ -30,6 +30,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [Usage](#usage)
   - [Extra Sections](#extra-sections)
   - [API](#api)
+  - [Maintainers](#maintainers)
   - [Contribute](#contribute)
   - [License](#license)
 - [Definitions](#definitions)
