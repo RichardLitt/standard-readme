@@ -185,7 +185,7 @@ progressively greater amount of knowledge."
 - If using an external API generator (like go-doc, js-doc, or so on), point to an external `API.md` file. This can be the only item in the section, if present.
 
 ### Maintainer(s)
-**Status**: Required.
+**Status**: Optional.
 
 **Requirements:**
 - Must be called `Maintainer` or `Maintainers`.
