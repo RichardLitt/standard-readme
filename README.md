@@ -14,6 +14,8 @@ This repository contains:
 4. [A badge](#badge) to point to this spec.
 5. [Examples of standard READMEs](example-readmes/) - such as this file you are reading.
 
+Standard Readme is designed for open source libraries. Although it’s [historically](#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
+
 
 ## Table of Contents
 
