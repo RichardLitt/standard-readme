@@ -16,7 +16,7 @@ This is a long description.
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
-- [Contribute](#contribute)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Security
@@ -49,9 +49,9 @@ This module depends upon a knowledge of [Markdown]().
 
 ## More optional sections
 
-## Contribute
+## Contributing
 
-See [the contribute file](contribute.md)!
+See [the contributing file](CONTRIBUTING.md)!
 
 PRs accepted.
 

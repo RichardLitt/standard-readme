@@ -12,7 +12,7 @@
 ```
 ```
 
-## Contribute
+## Contributing
 
 PRs accepted.
 
