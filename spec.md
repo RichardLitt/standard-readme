@@ -31,7 +31,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [Extra Sections](#extra-sections)
   - [API](#api)
   - [Maintainers](#maintainers)
-  - [Contribute](#contribute)
+  - [Contributing](#contributing)
   - [License](#license)
 - [Definitions](#definitions)
 
@@ -197,7 +197,7 @@ progressively greater amount of knowledge."
 - This should be a small list of people in charge of the repo. This should not be everyone with access rights, such as an entire organization, but the people who should be pinged and who are in charge of the direction and maintenance of the repository.
 - Listing past maintainers is good for attribution, and kind.
 
-### Contribute
+### Contributing
 **Status**: Required.
 
 **Requirements:**
@@ -206,10 +206,10 @@ progressively greater amount of knowledge."
 - List any requirements for contributing; for instance, having a sign-off on commits.
 
 **Suggestions:**
-- Link to a contributing or contribute file -- if there is one.
+- Link to a CONTRIBUTING file -- if there is one.
 - Be as friendly as possible.
 - Link to the GitHub issues.
-- Link to a Code of Conduct. A CoC is often in the Contribute section or document, or set elsewhere for an entire organization, so it may not be necessary to include the entire file in each repository. However, it is highly recommended to always link to the code, wherever it lives.
+- Link to a Code of Conduct. A CoC is often in the Contributing section or document, or set elsewhere for an entire organization, so it may not be necessary to include the entire file in each repository. However, it is highly recommended to always link to the code, wherever it lives.
 - A subsection for listing contributors is also welcome here.
 
 ### License

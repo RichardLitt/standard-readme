@@ -27,7 +27,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
-- [Contribute](#contribute)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Background
@@ -102,7 +102,7 @@ To see how the specification has been applied, see the [example-readmes](example
 
 [@RichardLitt](https://github.com/RichardLitt).
 
-## Contribute
+## Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
 
