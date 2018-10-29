@@ -1,4 +1,4 @@
-# Standard Readme
+# STANDARREADME
 
 [![Backers on Open Collective](https://opencollective.com/standard-readme/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/standard-readme/sponsors/badge.svg)](#sponsors) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
