@@ -4,6 +4,8 @@
 
 ![badge]()
 ![badge]()
+[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > This is an example file with maximal choices selected.
 
@@ -40,6 +42,8 @@ This module depends upon a knowledge of [Markdown]().
 
 ```
 ```
+
+Note: The `license` badge image link at the top of this file should be updated with the correct `:user` and `:repo`.
 
 ### Any optional sections
 
