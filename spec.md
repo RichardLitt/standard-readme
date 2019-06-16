@@ -144,7 +144,6 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - Link to prerequisite sites for programming language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
 - Include any system-specific information needed for installation.
-- If there is no code in the module - for instance, a document-based module - this section is not required.
 - An `Updating` section would be useful for most packages, if there are multiple versions which the user may interface with.
 
 ### Usage
@@ -161,7 +160,6 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
 - If relevant, point to a runnable file for the usage code.
-- If there is no code in the module - for instance, a document-based module - this section is not required.
 
 ### Extra Sections
 **Status**: Optional.
