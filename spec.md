@@ -31,6 +31,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [Extra Sections](#extra-sections)
   - [API](#api)
   - [Maintainers](#maintainers)
+  - [Thanks](#thanks)
   - [Contributing](#contributing)
   - [License](#license)
 - [Definitions](#definitions)
@@ -194,6 +195,16 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - This should be a small list of people in charge of the repo. This should not be everyone with access rights, such as an entire organization, but the people who should be pinged and who are in charge of the direction and maintenance of the repository.
 - Listing past maintainers is good for attribution, and kind.
+
+### Thanks
+**Status**: Optional.
+
+**Requirements:**
+- Must be called `Thanks`, `Credits` or `Acknowledgements`.
+
+**Suggestions:**
+- State anyone or anything that significantly helped with the development of your project.
+- State public contact hyper-links if applicable.
 
 ### Contributing
 **Status**: Required.
