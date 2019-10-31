@@ -121,10 +121,12 @@ progressively greater amount of knowledge."
 - May capture third and fourth depth headings. If it is a long ToC, these are optional.
 
 ### Security
-**Status**: Optional.
+**Status**: Required.
 
 **Requirements:**
-- May go here if it is important to highlight security concerns. Otherwise, it should be in [Extra Sections](#extra-sections).
+- Include instructions for the [responsible disclosure](https://en.wikipedia.org/wiki/Responsible_disclosure) of any security vulnerabilities found in the project.
+- Explain how to send an encrypted message to the maintainers.
+- Highlight here any other security concerns for users of the project.
 
 ### Background
 **Status:** Optional.
