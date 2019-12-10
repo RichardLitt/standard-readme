@@ -78,7 +78,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 **Requirements:**
 - Must not have its own title.
 - Must be less than 120 characters.
-- Must start with `> `
+- Must not start with `> `
 - Must be on its own line.
 - Must match the description in the packager manager's `description` field.
 - Must match GitHub's description (if on GitHub).
