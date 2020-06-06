@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/RichardLitt/standard-readme",
   "dependencies": {
-    "opencollective": "^1.0.3"
+    "opencollective": "^1.0.3",
+    "opencollective-postinstall": "^2.0.3"
   },
   "coordinates": [
     52.5173031,
