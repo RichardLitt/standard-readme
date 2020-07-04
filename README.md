@@ -73,6 +73,14 @@ $ standard-readme-spec
 # Prints out the standard-readme spec
 ```
 
+==?????==
+??java???????????????????
+```
+java [options] --module <??>[/<??>] [args...]        
+```
+[]????<>???
+
+
 ### Generator
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
