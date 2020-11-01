@@ -206,6 +206,7 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - State anyone or anything that significantly helped with the development of your project.
 - State public contact hyper-links if applicable.
+- Use consistently sized and styled logos to look nice.
 
 ### Contributing
 **Status**: Required.
