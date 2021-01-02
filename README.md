@@ -9,7 +9,7 @@ Your README file is normally the first entry point to your code. It should tell 
 This repository contains:
 
 1. [The specification](spec.md) for how a standard README should look.
-2. A link to a linter you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/standard-readme/issues/5)).
+2. A link to [a linter](https://github.com/RichardLitt/standard-readme-preset) you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/standard-readme/issues/5)).
 3. A link to [a generator](https://github.com/RichardLitt/generator-standard-readme) you can use to create standard READMEs.
 4. [A badge](#badge) to point to this spec.
 5. [Examples of standard READMEs](example-readmes/) - such as this file you are reading.
