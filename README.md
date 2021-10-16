@@ -22,7 +22,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-	- [Generator](#generator)
+  - [Generator](#generator)
 - [Badge](#badge)
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
@@ -34,13 +34,13 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 
 Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
 
-> Your documentation is complete when someone can use your module without ever
+-> Your documentation is complete when someone can use your module without ever
 having to look at its code. This is very important. This makes it possible for
 you to separate your module's documented interface from its internal
 implementation (guts). This is good because it means that you are free to
 change the module's internals as long as the interface remains the same.
 
-> Remember: the documentation, not the code, defines what a module does.
+-> Remember: the documentation, not the code, defines what a module does.
 
 ~ [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
 
@@ -73,7 +73,7 @@ $ standard-readme-spec
 # Prints out the standard-readme spec
 ```
 
-### Generator
+## Generator
 
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
@@ -95,8 +95,8 @@ To see how the specification has been applied, see the [example-readmes](example
 
 ## Related Efforts
 
-- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
-- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
+-> [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
+-> [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
 
 ## Maintainers
 
