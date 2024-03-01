@@ -5,9 +5,9 @@ A compliant README must satisfy all the requirements listed below.
 > Note: Standard Readme is designed for open source libraries. Although it's [historically](README.md#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
 
 **Requirements:**
-  - Be called README.md (with capitalization).
+  - Be called README (with capitalization) aand have a specific extension depending on its format (`.md` for Markdown, `.org` for Org Mode Markup syntax, `.html` for HTML, ...)
   - If the project supports i18n, the file must be named accordingly: `README.de.md`, where `de` is the BCP 47 Language tag. For naming, prioritize non-regional subtags for languages. If there is only one README and the language is not English, then a different language in the text is permissible without needing to specify the BCP tag: e.g., `README.md` can be in German if there is no `README.md` in another language. Where there are multiple languages, `README.md` is reserved for English.
-  - Be a valid Markdown file.
+  - Be a valid file in the selected format (Markdown, Org Mode, HTML, ...).
   - Sections must appear in order given below. Optional sections may be omitted.
   - Sections must have the titles listed below, unless otherwise specified. If the README is in another language, the titles must be translated into that language.
   - Must not contain broken links.
@@ -113,9 +113,9 @@ progressively greater amount of knowledge."
 **Status:** Required; optional for READMEs shorter than 100 lines.
 
 **Requirements:**
-- Must link to all Markdown sections in the file.
+- Must link to all sections in the file.
 - Must start with the next section; do not include the title or Table of Contents headings.
-- Must be at least one-depth: must capture all `##` headings.
+- Must be at least one-depth: must capture all level two headings (e.g.: Markdown's `##` or Org Mode's `**` or HTML's `<h2>` and so on).
 
 **Suggestions:**
 - May capture third and fourth depth headings. If it is a long ToC, these are optional.
