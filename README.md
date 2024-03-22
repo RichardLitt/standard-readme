@@ -85,8 +85,20 @@ If your README is compliant with Standard-Readme and you're on GitHub, it would 
 
 To add in Markdown format, use this code:
 
-```
+```markdown
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+```
+
+To add in Org Mode format, use this code:
+
+```orgmode
+[[https://github.com/RichardLitt/standard-readme][https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square]]
+```
+
+To add in HTML format, use this code:
+
+```html
+<a href="https://github.com/RichardLitt/standard-readme"><img alt="Sstandard-readme compliant" src="https://img.shields.io/badge/readme_style-standard-brightgreen?style=flat-square&color=brightgreen"></a>
 ```
 
 ## Example Readmes
