@@ -12,3 +12,10 @@ date-released: 2025-05-24
 url: "https://github.com/RichardLitt/standard-readme"
 license: "MIT"
 repository-code: "https://github.com/RichardLitt/standard-readme"
+keywords:
+- standard
+- readme
+- documentation
+- docs
+- readmemd
+type: "software"
