@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+abstract: "A standard style for README files"
+authors:
+- family-names: "Littauer"
+  given-names: "Richard"
+  orcid: "https://orcid.org/0000-0001-5428-7535"
+title: "Standard Readme"
+version: 1.2.2
+doi: 10.5281/zenodo.11164868
+date-released: 2025-05-24
+url: "https://github.com/RichardLitt/standard-readme"
+license: "MIT"
+repository-code: "https://github.com/RichardLitt/standard-readme"
