@@ -117,3 +117,4 @@ This project exists thanks to all the people who contribute.
 ## License
 
 [MIT](LICENSE) © Richard Littauer
+This document provides a clear foundation for creating consistent and effective README files, especially for new contributors.
