@@ -19,16 +19,19 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 
 ## Table of Contents
 
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-	- [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
-- [Maintainers](#maintainers)
-- [Contributing](#contributing)
-- [License](#license)
+- [Standard Readme](#standard-readme)
+	- [Table of Contents](#table-of-contents)
+	- [Background](#background)
+	- [Install](#install)
+	- [Usage](#usage)
+		- [Generator](#generator)
+	- [Badge](#badge)
+	- [Example Readmes](#example-readmes)
+	- [Related Efforts](#related-efforts)
+	- [Maintainers](#maintainers)
+	- [Contributing](#contributing)
+		- [Contributors](#contributors)
+	- [License](#license)
 
 ## Background
 
