@@ -61,7 +61,9 @@ The goals for this repository are:
 
 ## Install
 
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+You do not need to install anything to follow the specification. However, you can use [the preset](https://github.com/RichardLitt/standard-readme-preset) or [the generator](https://github.com/RichardLitt/generator-standard-readme) to work with README files.
+
+If you want to print out the spec, this project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
 ```sh
 $ npm install --global standard-readme-spec
