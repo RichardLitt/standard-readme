@@ -26,7 +26,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 	- [Usage](#usage)
 		- [Generator](#generator)
 	- [Badge](#badge)
-	- [Example Readmes](#example-readmes)
+	- [Example READMEs](#example-readmes)
 	- [Related Efforts](#related-efforts)
 	- [Maintainers](#maintainers)
 	- [Contributing](#contributing)
@@ -94,7 +94,7 @@ To add in Markdown format, use this code:
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ```
 
-## Example Readmes
+## Example READMEs
 
 To see how the specification has been applied, see the [example-readmes](example-readmes/).
 
