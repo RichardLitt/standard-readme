@@ -1,3 +1,3 @@
 #! /bin/bash
 
-cat spec.md
+cat "$(dirname "$0")/spec.md"
