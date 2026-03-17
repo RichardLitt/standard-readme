@@ -70,6 +70,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 
 **Suggestions:**
 - Use http://shields.io or a similar service to create and host the images.
+- For static badges, consider using a locally hosted image to avoid external requests.
 - Add the [Standard Readme badge](https://github.com/RichardLitt/standard-readme#badge).
 
 ### Short Description
