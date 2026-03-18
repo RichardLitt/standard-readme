@@ -74,7 +74,7 @@ $ npm install --global standard-readme-spec
 This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
 ```sh
-$ standard-readme-spec
+$ standard-readme
 # Prints out the standard-readme spec
 ```
 
