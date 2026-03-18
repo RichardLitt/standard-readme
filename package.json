@@ -2,7 +2,9 @@
   "name": "standard-readme-spec",
   "version": "1.2.3",
   "description": "A standard style for README files",
-  "bin": "cat.sh",
+  "bin": {
+    "standard-readme": "cat.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RichardLitt/standard-readme.git"
