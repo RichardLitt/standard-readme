@@ -88,6 +88,10 @@ If your README is compliant with Standard-Readme and you're on GitHub, it would 
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
+This badge uses Shields.io, a popular service for generating customizable badges for GitHub projects and documentation.
+
+It is generally recommended to place badges near the top of your README so that important project information is immediately visible to readers. Avoid adding too many badges, as excessive badges can make a README look cluttered and reduce readability.
+
 To add in Markdown format, use this code:
 
 ```
